@@ -1,0 +1,25 @@
+
+.filter{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.filter select{
+    padding: 5px;
+    border-radius: .5rem;
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+.list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: 24px;
+    gap: 1.5rem;
+}
