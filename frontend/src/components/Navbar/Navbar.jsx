@@ -5,7 +5,7 @@ export function Navbar() {
     return(
         <div className={style.navbar}>
             <Link className={style.link} to="/tasks">Tasks 📒</Link>
-            <img src="/logo-kdosh.svg"/>
+            <img src="/vite.svg"/>
             <Link className={style.link} to="/tasks/create">Create Task 🖋️</Link>
         </div>
     )
